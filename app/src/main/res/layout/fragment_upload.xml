@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientcolor">
+
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="384dp"
+        android:layout_height="800dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-150dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/music_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="220dp"
+            android:background="@drawable/edit_text_bottom"
+            android:hint="Music name"
+            android:padding="15dp" />
+        <Spinner
+            android:id="@+id/genre_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-220dp"
+            android:background="@drawable/edit_text_bottom"
+            android:entries="@array/genre_array"
+            android:padding="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/upload_image_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:background="@drawable/button"
+            android:layout_weight="0.5"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="#FE5295"
+            android:textSize="15sp"
+            android:hint="Optional: UPLOAD IMAGE"
+            />
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/upload_audio_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:background="@drawable/button"
+                android:layout_weight="0.5"
+                android:text="UPLOAD AUDIO"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="#FE5295"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <ProgressBar
+            android:id="@+id/prog_music_id"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

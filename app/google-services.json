@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687178179914",
+    "firebase_url": "https://praktikum-dbeb6.firebaseio.com",
+    "project_id": "praktikum-dbeb6",
+    "storage_bucket": "praktikum-dbeb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687178179914:android:d32979535a6a45951ccdb3",
+        "android_client_info": {
+          "package_name": "com.example.praktikum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687178179914-oaac0hpfbo1jak1r3jqnota6io86p1sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praktikum",
+            "certificate_hash": "494d61682f862cc695dd4d20f875e0b454d0d84a"
+          }
+        },
+        {
+          "client_id": "687178179914-ffrcc4iecp984nvj6e99jn1tasi5fdng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtsMz0qTpCYPBTwiVdrbTRvzUAOT0Ry8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687178179914-ffrcc4iecp984nvj6e99jn1tasi5fdng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

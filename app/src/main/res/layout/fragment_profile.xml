@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="music.player.MusicPlayer"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_id"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-35dp" />
+
+        <TextView
+            android:id="@+id/artist_id_username"
+            android:layout_width="130dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/profile_image_id"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/whiteTextColor"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/artist_id_email"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_below="@id/artist_id_username"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/artist_id_country"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteTextColor"
+            android:layout_below="@id/artist_id_email"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/country_image_id"
+            android:layout_width="57dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="-4dp"
+
+            android:layout_toLeftOf="@id/artist_id_country" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_id"
+        android:layout_width="match_parent"
+        android:layout_height="481dp"
+        android:layout_marginTop="250dp"
+        android:clipToPadding="false"
+        android:paddingBottom="60dp" />
+
+
+</RelativeLayout >

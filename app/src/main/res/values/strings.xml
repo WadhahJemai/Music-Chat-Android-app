@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string-array name="country_arrays">
+        <item>Choose Country</item>
+        <item>Tunisia</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+
+    <string-array name="genre_array">
+        <item>Choose Genre</item>
+        <item>Rap</item>
+        <item>Rock</item>
+        <item>Classical</item>
+        <item>Blues</item>
+    </string-array>
+</resources>
